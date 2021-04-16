@@ -1,0 +1,17 @@
+.columna{
+    width: 50%;
+    float:left;
+}
+.col{
+width: 20%
+}
+
+@media (max-width: 600px) {
+
+    .facet_sidebar {
+      display: none;
+    }
+
+  }
+
+ 
