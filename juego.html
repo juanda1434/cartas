@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartas</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/grilla.css">
+</head>
+
+<body>
+
+<header>
+  <h1>  SHOWDOWN</h1>
+</header>
+    
+<div class="container">
+    
+        <div class="container__cartas" id="cartas">            
+        </div>
+    
+    <div class="container__informacion">
+        
+            <table class="container__informacion__tabla">
+                <thead>
+                    <tr>
+                        <th>
+                            #
+                        </th>
+                        <th>
+                            Carta
+                        </th>
+                        <th>
+                            Cant
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="infoTabla">
+                    <tr>
+                        <td>1</td>
+                        <td>As casdsasd</td>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+            </table>
+       
+
+        <form  class="container__informacion__formularios">
+            <h4 class="container__informacion__formularios__titulo">Registro cartas</h4>
+            <div class="container__informacion__formularios__grupo">
+                <label for="numero">Numero</label>
+                <input id="numero" name="numero">
+            </div>
+                        
+            <div class="container__informacion__formularios__grupo">
+                <label for="carta">Carta</label>
+                <input id="carta" name="carta">
+            </div>
+            <div class="container__informacion__formularios__grupo">
+            <button type="button" id="btnSave">Guardar</button>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
