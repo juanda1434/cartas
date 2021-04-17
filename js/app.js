@@ -30,6 +30,7 @@ const cargarCartasJSON = () => {
         .then(cartas => {
             localStorage.setItem("cartas", JSON.stringify(cartas));
             cargarImg();
+            cargarTabla();
         });
 }
 
