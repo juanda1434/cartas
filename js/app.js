@@ -128,6 +128,10 @@ addAccion("btnSave", () => {
         alert("Numero debe ser numerico");
         return;
     }
+    if(numero<0 || numero >13){
+        alert("Solo puede ingresar numeros entre 1 y 13");
+        return;
+    }
     const cartaNueva = { numero: numero, carta: carta,valor:0 };
     if (!buscarCarta(cartaNueva)) {
        const exito= agregarCarta(cartaNueva);    
